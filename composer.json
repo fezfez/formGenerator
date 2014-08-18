@@ -1,0 +1,35 @@
+{
+	"name" : "fezfez/form-generator",
+	"description" : "Form Generator",
+	"type" : "code-generator",
+	"authors" : [{
+			"name" : "Stéphane Demonchaux",
+			"email" : "demonchaux.stephane@gmail.com"
+		}
+	],
+	"keywords" : [
+		"zf2",
+		"form generator",
+		"SOLID principles"
+	],
+	"homepage" : "https://github.com/fezfez/formGenerator",
+	"license" : "MIT",
+	"require" : {
+		"php" : ">=5.4"
+	},
+	"require-dev" : {
+		"fezfez/code-generator" : "dev-master"
+	},
+	"autoload" : {
+		"psr-0" : {
+			"FormGenerator" : "src/"
+		}
+	},
+	"support" : {
+		"source" : "https://github.com/fezfez/formGenerator",
+		"email" : "demonchaux.stephane@gmail.com",
+		"issues" : "https://github.com/fezfez/formGenerator/issues",
+		"wiki" : "https://github.com/fezfez/formGenerator/blob/master/README.md"
+	},
+	"minimum-stability" : "dev"
+}
