@@ -18,7 +18,8 @@
 		"php" : ">=5.4"
 	},
 	"require-dev" : {
-		"fezfez/code-generator" : "dev-master"
+		"fezfez/code-generator" : "dev-master",
+		"phpunit/phpunit" : "4.2.*"
 	},
 	"autoload" : {
 		"psr-0" : {
